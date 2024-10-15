@@ -17,13 +17,14 @@
             pulaLinha()
         }
         
-         let pesoHerick = 74
-         let alturaHerick = 1.71
+         function calcularIMC(peso, altura){
+           return imc = peso/(altura*altura)
+        }
 
-         let imcTeo = pesoHerick/(alturaHerick)
-         
-         mostra('O IMC de Herick é $(imcHerick)')//template string
-         mostra('O IMC de Herick é +')
+         let imcHerick = calcularIMC(72, 1.71)
+
+         mostra('O IMC  de Herick é:' + imcHerick)
+
 
 
     </script>
