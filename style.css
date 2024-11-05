@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Rubik+Wet+Paint&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titulo:"Rubik Wet Paint", system-ui;
+    --fonte-texto:"Dancing Script", cursive;
+    --cor1: #00a6fbff;
+    --cor2: #0582caff;
+    --cor3: #006494ff;
+    --cor4: #003554ff;
+    --cor5: #051923ff;
+    --cor6: #f1f1f1;
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: var(--fonte-texto);
+}
+
+header, footer{
+     background-color: var(--cor3);
+     padding: 2em;
+     color: var(--cor6);
+     text-align: center;
+     font-family: var(--fonte-titulo);
+     font-size: 1.5em;
+}
+
+footer{
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color:var(--cor5);
+}
